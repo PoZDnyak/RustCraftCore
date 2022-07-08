@@ -1,0 +1,17 @@
+host: 'localhost'
+database: 'rust'
+user: 'PoZDnyak'
+password: 'rfvtgb'
+barrels_cooldown: 300
+debug: true
+radiation:
+  regions: []
+  interval: 20 # Will increase radiation every X ticks for players inside radiation areas.
+  increment: 3 # Will increase radiation by X every time.
+  cap: 60 # The max radiation a player can have.
+  harm: # Radiation Harm settings
+    required: 40 # Will start to hurt players when radiation is at or above X.
+    interval: 30 # Will hurt players every X ticks if radiation is above or at required.
+    damage: 2.0 # Amount of damage radiation does.
+message:
+  radiation-increased: "Radiation: %radiation%"

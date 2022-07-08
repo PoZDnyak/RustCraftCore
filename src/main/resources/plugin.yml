@@ -1,0 +1,23 @@
+name: RustCore
+version: 1.2.0
+main: ru.pozdnyak.rustcore.Main
+authors:
+  - PoZDnyak
+  - vk.com/pozdnyak1337
+commands:
+  rc:
+    description: set barrel
+    permission: rustcore.barrels
+    usage: /rc barrel set <color>
+  rustm:
+    permission: rustcore.spawnore
+  radiation:
+    permission: rmc.admin
+
+depend:
+  - WorldGuard
+  - WorldEdit
+permissions:
+  rustcort.metabolism:
+    description: Respawn with 500 water 250 food
+    default: false
